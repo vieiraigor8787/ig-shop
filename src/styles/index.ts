@@ -12,21 +12,24 @@ export const {
 } = createStitches({
   theme: {
     colors: {
-      igshop: "#8257e6",
       white: '#fff',
 
-      gray900: '#121214',
-      gray800: '#202024',
-      gray300: '#c4c4c4',
-      gray100: '#e1e1e6',
+      darkerGreen: '#101919',
+      darkGreen: '#203131',
+      lightGreen: '#A9C6C6',
+      lighterGreen: '#F3F7F7',
 
-      orange500: '#B35600',
-      orange300: '#91541B',
+      lightblue: '#B3C2F2',
+      purpleBlue: '#96ABED',
+
+      greenDestak: '#1B998B',
     },
+    fontSizes: {
+      md: '1.125rem',
+      lg: '1.25rem',
+      xl: '1.5rem',
+      '2xl': '2rem'
+    }
   },
-  media: {
-    bp1: '(min-width: 640px)',
-    bp2: '(min-width: 768px)',
-    bp3: '(min-width: 1024px)',
-  },
+
 });

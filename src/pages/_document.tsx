@@ -20,8 +20,8 @@ export default class MyDocument extends Document {
             id="stitches"
             dangerouslySetInnerHTML={{ __html: getCssText() }}
           />
-          <title>igShop</title>
         </Head>
+        <title>igShop</title>
         <body>
           <Main />
           <NextScript />

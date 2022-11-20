@@ -7,7 +7,7 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: "$gray900",
+    backgroundColor: "$darkerGreen",
     color: "$gray100",
     "-webkit-font-smoothing": "antialised",
   },
@@ -16,7 +16,7 @@ export const globalStyles = globalCss({
     fontFamily: "Kanit",
   },
 
-  button: {
+  'button, a': {
     cursor: "pointer",
   },
 });
